@@ -1,6 +1,11 @@
 header {
-    background:  #BBBBBB;
+    background:  rgb(83, 92, 104);
     padding: 20px 0;
+    padding: 10px;
+    
+}
+
+main {
     
 }
 .caixa {
@@ -17,6 +22,7 @@ nav {
 nav li {
     display: inline;
     margin-left: 15px;
+    margin: 20px;
 }
 
 nav a {
@@ -28,8 +34,10 @@ nav a {
 }
 
 nav a:hover {
-color:cadetblue;
+color:rgb(19, 15, 64);
 text-decoration: underline;
+background-color: rgb(80, 99, 99);
+padding: 5px;
 }
 
 
@@ -56,7 +64,7 @@ text-decoration: underline;
     border-color:rgb(52, 0, 157)
 }
 .produtos li:active {
-    border-color: rgb(145, 9, 9);
+    border-color: rgb(235, 77, 75);
 }
 
 .produtos li:hover h2 {
@@ -80,7 +88,7 @@ text-decoration: underline;
 
 footer {
     text-align: center;
-    background-image: url("/Nova página/_img/bg.jpg");
+    background-image: url("/Modificando projeto Barbearia Alura/_img/bg.jpg"); 
     padding: 40px 0;
 }
 
