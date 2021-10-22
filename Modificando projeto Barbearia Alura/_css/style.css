@@ -6,7 +6,7 @@
 }
 
 header {
-    background: #f7f1e3;
+    background: rgb(255, 249, 235);
     padding: 20px 0;
 
     
@@ -14,7 +14,8 @@ header {
 
 nav {
     text-align: center;
-    background: #f7f1e3
+    background: #f7f1e3;
+    
 }
 
 #menu ul {
@@ -38,14 +39,13 @@ nav {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 25px;
-    
+    padding: 30px;
     display: inline-block;
 }
 
 #menu ul li a:hover{
-    color:rgb(255, 255, 255);
-    background-color: #130f40;
+    color:#f7f1e3 ;
+    background-color: #95afc0;
     border-radius: 10px;
 }
 
@@ -57,6 +57,8 @@ nav {
 }
 #Banner {
     width: 100%;
+    height: 500px;
+    margin-bottom: -10px;
 }
 
 
@@ -68,7 +70,7 @@ nav {
 }
 
 .principal {
-    background: #CCCCCC;
+    background: #95afc0;
     padding: 40px;
 
 }
