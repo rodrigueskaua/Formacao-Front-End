@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&family=Open+Sans+Condensed:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-family: 'Lobster', cursive;    font-size: 50px;
+
 }
 
 header {
@@ -47,14 +55,12 @@ nav {
     color:#f7f1e3 ;
     background-color: #95afc0;
     border-radius: 10px;
-}
-
-.titulo-principal {
-    text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 50px;
+    transition: all 0.5s;
 
 }
+
+
+
 #Banner {
     width: 100%;
     height: 500px;
@@ -78,6 +84,7 @@ nav {
 .texto {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 #missao {
     padding-top: 25px;
@@ -87,20 +94,17 @@ nav {
 
 }
 
-p {
-    text-align: center;
-}
 
-em strong {
+#missao em strong {
     color: #2c2c54;
 }
 
 
-ul {
+.beneficios ul {
     display: inline-block;   
     vertical-align: top;
     width: 20%;
-    margin-right: 15%;
+    margin-right: 23%;
 
 }
 .itens {
@@ -109,11 +113,95 @@ ul {
 
 .beneficios {
     padding: 20px;
-    background: #f7f1e3 ;
+    background: f7f1e3 ;
 }
 
 
 
 .beneficios_img {
-    width: 50%;
+    margin-left: 300px;
+    width: 30%;
+}
+footer {
+    background: #95afc0;
+    
+    
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    pa
+    
+}   
+
+footer ul li a i{
+    padding: 0 150px;
+    font-size: 120px;
+    
+    
+}
+footer ul li a{    
+    text-decoration: none;
+    color: black;
+}
+
+.texto-icones {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 30px;
+}
+
+footer ul li :hover{
+    color:#f7f1e3 ;
+    background-color: #95afc0;
+    transition: all 0.5s;
+}
+
+
+/*     
+
+
+footer ul {
+    text-align: center;
+    font-size: 100px;
+    width: 100%;
+    margin: auto;
+    list-style: none;
+}
+
+footer ul li{
+    display: inline;
+    margin: 100px;
+
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+footer ul li a:hover{
+    color:#f7f1e3 ;
+    background-color: #95afc0;
+    transition: all 0.5s;
+} */
+
+.footer-end {
+    text-align: center;
+    background-image: url("/Modificando projeto Barbearia Alura/_img/bg.jpg"); 
+    padding: 20px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
 }
