@@ -30,6 +30,7 @@ nav {
 }
 
 #menu ul {
+    padding-bottom: 15px;
     width: 50%;
     margin: auto;
     list-style: none;
@@ -93,6 +94,7 @@ nav {
     color: #3030cf;
 }
 #missao {
+    text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: 27px ;
