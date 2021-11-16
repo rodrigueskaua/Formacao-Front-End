@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&family=Open+Sans+Condensed:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+header {
+    background: #adc7eb;
+    padding: 20px 0;
+    padding: 10px;
+    
+}
+
+main {
+    background-color:#eaf1fa;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+nav li {
+    display: inline;
+    margin-left: 15px;
+    margin: 20px;
+    font-family: 'Andada Pro', serif;
+    
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 20px
+}
+
+nav a:hover {
+color:white;
+background-color: #142e52;
+border-radius: 15px;
+transition: all 0.5s;
+
+}
+
+
+.produtos  {
+ width: 940px;
+ margin: 0 auto;
+ padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 10px 10px 40px 40px;
+    
+}
+
+.produtos li:hover {
+    border-color: #004099;
+    transition: all 0.3s;
+    
+    
+}
+.produtos li:active {
+    border-color: #ff793f;
+}
+
+.produtos li:hover h2 {
+    font-size:  33px;
+    transition: all 0.3s;
+
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-family: 'Andada Pro', serif;
+    font-weight: bold;
+    color: #214578;
+}
+
+.produto_descricao {
+    padding-top: 10px ;
+    font-size: 18px;
+    font-family: 'Andada Pro', serif;
+    color: #3773c8;
+}
+
+.produto_preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px ;
+    color: #194480;
+}
+
+.contato {
+    background-color:#eaf1fa;
+}
+
+.contato ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: black;
+    
+}   
+
+.contato ul li a i{
+    padding: 0 150px;
+    font-size: 120px;
+    
+    
+}
+.contato ul li a{    
+    text-decoration: none;
+    color: black;
+}
+
+.texto-icones {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 30px;
+}
+
+.contato ul li :hover{
+    color: #194480 ;
+    transition: all 0.5s;
+}
+
+footer {
+    text-align: center;
+    background-image: url("/Modificando projeto Barbearia Alura/_img/bg.jpg"); 
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+    
