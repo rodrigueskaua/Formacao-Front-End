@@ -1,75 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&family=Open+Sans+Condensed:wght@300&family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #eeeef6;
+    list-style: none;
+    text-decoration: none;
+
 }
 
 .titulo-principal {
     text-align: center;
-    font-family: 'Lobster', cursive;    
-    font-size: 50px;
-    color: #eeeef6;
-
+    font-style: italic;
+    font-size: 70px;
+    font-weight: 500;
 
 }
 
 header {
-    background: #222244;
-    padding: 10px 0;
-
-    
+    background: #041C32; 
 }
 
 nav {
+    margin-top: 10px;
     text-align: center;
-    background: #222244;
-    
+      
 }
 
 #menu ul {
-    padding-bottom: 15px;
-    width: 50%;
+    padding-bottom: 20px;
     margin: auto;
-    list-style: none;
-    
     
 }
 
 #menu ul li{
-    display: inline;
-    font-family: 'Andada Pro', serif;
-    margin: 10px;
+    display: inline-block;
+    margin: 10px 20px;
 
 }
 
 #menu ul li a{
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 20px;
-    display: inline-block;
-    color: #eeeef6;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 10px 15px;
 
 }
 
 #menu ul li a:hover{
     color:#000000 ;
-    background-color: #d6d6f5;
-    border-radius: 10px;
-    transition: all 0.5s;
+    background-color: whitesmoke;
+    transition: all 0.7s;
 
 }
 
 
 
-#Banner {
-    width: 100%;
-    height: 500px;
-    margin-bottom: -10px;
+#Banner{
+    height: 50vh;
+    background-image: url(/_img/banner2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 
 
@@ -78,20 +72,20 @@ nav {
     font-family: 'Andada Pro', serif;
     padding-bottom: 20px;
     font-size: 30px;
-    color:#2727a5;
+    color:#000000;
 }
 
 .principal {
-    background: #d6d6f5;
+    background:rgb(228, 228, 228);
     padding: 40px;
 
 }
 
 .texto {
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Andada Pro', serif;
     text-align: center;
-    color: #3030cf;
+    color: #000000;
 }
 #missao {
     text-align: center;
@@ -104,7 +98,7 @@ nav {
 
 
 #missao em strong {
-    color: #2c2c54;
+    color: #04293A;
 }
 
 
@@ -117,11 +111,13 @@ nav {
 }
 .itens {
    font-style: italic;
+   color: #000000;
+
 }
 
 .beneficios {
     padding: 20px;
-    background:#eaeafa;
+    background:#fffafa;
     
 }
 
@@ -132,8 +128,7 @@ nav {
     width: 30%;
 }
 footer {
-    background: #222244;
-    
+    background: linear-gradient(180deg, rgba(4,28,50,1) 0%, rgba(103,87,79,1) 100%);
     
 }
 
@@ -154,7 +149,6 @@ footer ul li a i{
 }
 footer ul li a{    
     text-decoration: none;
-    color: #eaeafa;
 }
 
 .texto-icones {
@@ -162,44 +156,14 @@ footer ul li a{
     padding-top: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;    
     font-size: 30px;
 }
 
-footer ul li :hover{
-    color:#4476bb ;
+footer ul li:hover{
+    color:#823fff ;
     transition: all 0.5s;
 }
 
-
-/*     
-
-
-footer ul {
-    text-align: center;
-    font-size: 100px;
-    width: 100%;
-    margin: auto;
-    list-style: none;
-}
-
-footer ul li{
-    display: inline;
-    margin: 100px;
-
-}
-
-footer ul li a{
-    text-decoration: none;
-    color: black;
-
-}
-
-footer ul li a:hover{
-    color:#f7f1e3 ;
-    background-color: #95afc0;
-    transition: all 0.5s;
-} */
 
 .footer-end {
     text-align: center;
@@ -208,7 +172,7 @@ footer ul li a:hover{
 }
 
 .copyright {
-    color: white;
-    font-size: 13px;
+    color: rgb(255, 255, 255);
+    font-size: 33px;
     margin-top: 20px;
 }

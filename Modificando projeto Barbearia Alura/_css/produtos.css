@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&family=Open+Sans+Condensed:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 header {
-    background: #f7f1e3;
+    background: #adc7eb;
     padding: 20px 0;
     padding: 10px;
     
 }
 
 main {
-    background-color:#FFFFF0;
+    background-color:#eaf1fa;
 }
 .caixa {
     position: relative;
@@ -36,12 +37,12 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-    padding: 30px
+    padding: 20px
 }
 
 nav a:hover {
-color:#f7f1e3;
-background-color: rgb(0, 0, 0);
+color:white;
+background-color: #142e52;
 border-radius: 15px;
 transition: all 0.5s;
 
@@ -68,7 +69,7 @@ transition: all 0.5s;
 }
 
 .produtos li:hover {
-    border-color:lightslategray	;
+    border-color: #004099;
     transition: all 0.3s;
     
     
@@ -87,12 +88,14 @@ transition: all 0.5s;
     font-size: 30px;
     font-family: 'Andada Pro', serif;
     font-weight: bold;
+    color: #214578;
 }
 
 .produto_descricao {
     padding-top: 10px ;
     font-size: 18px;
     font-family: 'Andada Pro', serif;
+    color: #3773c8;
 }
 
 .produto_preco {
@@ -101,6 +104,46 @@ transition: all 0.5s;
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
     padding-top: 15px ;
+    color: #194480;
+}
+
+.contato {
+    background-color:#eaf1fa;
+}
+
+.contato ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: black;
+    
+}   
+
+.contato ul li a i{
+    padding: 0 150px;
+    font-size: 120px;
+    
+    
+}
+.contato ul li a{    
+    text-decoration: none;
+    color: black;
+}
+
+.texto-icones {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 30px;
+}
+
+.contato ul li :hover{
+    color: #194480 ;
+    transition: all 0.5s;
 }
 
 footer {
